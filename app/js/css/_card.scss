@@ -3,7 +3,7 @@
     flex-direction:column;
     border-radius: 1rem;
     text-align: center;
-    border: 1px solid black;
+    box-shadow: 3px 1px 7px $DesaturatedBlue;
     
     img{
         height: 10rem;
@@ -33,32 +33,34 @@
     .scontainer{
         display: flex;
         width:17.4375rem;
-        height:5rem;
+        height:4.9375rem;
         align-items: center;
         background:$VeryPaleBlue;
-        border:1px solid blue;
         align-self: center;
+        border-radius:1rem;
         
         svg{
             height:3rem;
             width: 3rem;
+            margin-left: 1rem;
         }
         .content{
             display: flex;
             justify-content: center;
             flex-direction: column;
-            border:1px solid black;
             height:100%;
             padding: 0%;
             margin: 0%;
-            width:5.0625rem;
+            margin-left: 1.1875rem;
             
             h3{
                 font-size:0.6875rem;
                 color:$DarkBlue;
+                margin-bottom: 0.75rem;
             }
             .cost{
                 color: $DesaturatedBlue;
+                margin: 0%;
             }
 
         }
@@ -67,8 +69,29 @@
             text-decoration: underline;
             font-weight: 800;
             color: $BrightBlue;
+            margin-left: 3.0625rem;
+            margin-right: 0.875rem;
         }
         
+    }
+    .btn{
+        align-self: center;
+        width: 17.4375rem;
+        height:3rem;
+        margin-top: 1.4375rem;
+        background: $BrightBlue;
+        border-radius: 1rem;
+        border:none;
+        color: $VeryPaleBlue;
+        font-size: 0.75rem;
+        font-weight: $WHigh;
+        box-shadow: 0px 20px 10px 0px $PaleBlue;
+    }
+    .text{
+        margin-top: 1.625rem;
+        align-self: center;
+        color: $DesaturatedBlue;
+        font-size: 0.75rem;
     }
     
 }

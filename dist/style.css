@@ -55,7 +55,8 @@ a, a:visited, a:hover {
           flex-direction: column;
   border-radius: 1rem;
   text-align: center;
-  border: 1px solid black;
+  -webkit-box-shadow: 3px 1px 7px #7280a7;
+          box-shadow: 3px 1px 7px #7280a7;
 }
 
 .card img {
@@ -93,19 +94,20 @@ a, a:visited, a:hover {
   display: -ms-flexbox;
   display: flex;
   width: 17.4375rem;
-  height: 5rem;
+  height: 4.9375rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   background: #f5f7ff;
-  border: 1px solid blue;
   -ms-flex-item-align: center;
       align-self: center;
+  border-radius: 1rem;
 }
 
 .card .scontainer svg {
   height: 3rem;
   width: 3rem;
+  margin-left: 1rem;
 }
 
 .card .scontainer .content {
@@ -119,20 +121,21 @@ a, a:visited, a:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border: 1px solid black;
   height: 100%;
   padding: 0%;
   margin: 0%;
-  width: 5.0625rem;
+  margin-left: 1.1875rem;
 }
 
 .card .scontainer .content h3 {
   font-size: 0.6875rem;
   color: #1f2f56;
+  margin-bottom: 0.75rem;
 }
 
 .card .scontainer .content .cost {
   color: #7280a7;
+  margin: 0%;
 }
 
 .card .scontainer a {
@@ -140,5 +143,33 @@ a, a:visited, a:hover {
   text-decoration: underline;
   font-weight: 800;
   color: #3829e0;
+  margin-left: 3.0625rem;
+  margin-right: 0.875rem;
+}
+
+.card .btn {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 17.4375rem;
+  height: 3rem;
+  margin-top: 1.4375rem;
+  background: #3829e0;
+  border-radius: 1rem;
+  border: none;
+  color: #f5f7ff;
+  font-size: 0.75rem;
+  font-weight: 800;
+  -webkit-box-shadow: 0px 20px 10px 0px #e0e8ff;
+          box-shadow: 0px 20px 10px 0px #e0e8ff;
+}
+
+.card .text {
+  margin-top: 1.625rem;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: #7280a7;
+  font-size: 0.75rem;
 }
 /*# sourceMappingURL=style.css.map */
