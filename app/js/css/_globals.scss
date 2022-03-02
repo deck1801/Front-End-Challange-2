@@ -21,6 +21,13 @@ body{
     &.noscroll{
         overflow: hidden;
     }
+
+    @include breakpoint-up(large){
+        background: url(/images/pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: $PaleBlue;
+    }
 }
 
 h1,h2,h3{
@@ -44,6 +51,7 @@ a,a:visited,a:hover{
     @include breakpoint-up(large) {
         width: 28.1875rem;
         height: 43.5625rem;
+        background-color: white;
     }
 }
 
