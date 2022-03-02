@@ -45,6 +45,13 @@ a, a:visited, a:hover {
   height: 37.25rem;
 }
 
+@media (min-width: 64em) {
+  .container {
+    width: 28.1875rem;
+    height: 43.5625rem;
+  }
+}
+
 .card {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -67,6 +74,13 @@ a, a:visited, a:hover {
   margin-bottom: 2.375rem;
 }
 
+@media (min-width: 64em) {
+  .card img {
+    width: 28.1875rem;
+    height: 13.8125rem;
+  }
+}
+
 .card h1 {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -75,6 +89,13 @@ a, a:visited, a:hover {
   color: #1f2f56;
   font-weight: 800;
   margin-bottom: 1.75rem;
+}
+
+@media (min-width: 64em) {
+  .card h1 {
+    font-size: 1.3125rem;
+    margin-bottom: 1.5625rem;
+  }
 }
 
 .card p {
@@ -87,6 +108,12 @@ a, a:visited, a:hover {
   margin-left: 2.5rem;
   margin-right: 2.5rem;
   margin-bottom: 1.6875rem;
+}
+
+@media (min-width: 64em) {
+  .card p {
+    font-size: 0.6875rem;
+  }
 }
 
 .card .scontainer {
@@ -104,10 +131,23 @@ a, a:visited, a:hover {
   border-radius: 1rem;
 }
 
+@media (min-width: 64em) {
+  .card .scontainer {
+    width: 22.0625rem;
+    height: 6rem;
+  }
+}
+
 .card .scontainer svg {
   height: 3rem;
   width: 3rem;
   margin-left: 1rem;
+}
+
+@media (min-width: 64em) {
+  .card .scontainer svg {
+    margin-left: 1.5rem;
+  }
 }
 
 .card .scontainer .content {
@@ -127,15 +167,33 @@ a, a:visited, a:hover {
   margin-left: 1.1875rem;
 }
 
+@media (min-width: 64em) {
+  .card .scontainer .content {
+    margin-left: 1.3125rem;
+  }
+}
+
 .card .scontainer .content h3 {
-  font-size: 0.6875rem;
+  font-size: 0.6375rem;
   color: #1f2f56;
   margin-bottom: 0.75rem;
+}
+
+@media (min-width: 64em) {
+  .card .scontainer .content h3 {
+    font-size: 0.625rem;
+  }
 }
 
 .card .scontainer .content .cost {
   color: #7280a7;
   margin: 0%;
+}
+
+@media (min-width: 64em) {
+  .card .scontainer .content .cost {
+    font-size: 0.6875rem;
+  }
 }
 
 .card .scontainer a {
@@ -145,6 +203,13 @@ a, a:visited, a:hover {
   color: #3829e0;
   margin-left: 3.0625rem;
   margin-right: 0.875rem;
+}
+
+@media (min-width: 64em) {
+  .card .scontainer a {
+    margin-left: 5.8125rem;
+    margin-right: 1.5rem;
+  }
 }
 
 .card .btn {
@@ -164,6 +229,13 @@ a, a:visited, a:hover {
           box-shadow: 0px 20px 10px 0px #e0e8ff;
 }
 
+@media (min-width: 64em) {
+  .card .btn {
+    margin-top: 2.0625rem;
+    font-size: 0.625rem;
+  }
+}
+
 .card .text {
   margin-top: 1.625rem;
   -ms-flex-item-align: center;
@@ -171,5 +243,11 @@ a, a:visited, a:hover {
       align-self: center;
   color: #7280a7;
   font-size: 0.75rem;
+}
+
+@media (min-width: 64em) {
+  .card .text {
+    margin-top: 2.3125rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */

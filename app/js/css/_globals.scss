@@ -40,4 +40,11 @@ a,a:visited,a:hover{
     transform: translate(-50%,-50%);
     width: 20.375rem;
     height: 37.25rem;
+    
+    @include breakpoint-up(large) {
+        width: 28.1875rem;
+        height: 43.5625rem;
+    }
 }
+
+
